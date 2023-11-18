@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    gap: 20px;
+    padding: 30px 45px;
+   
+    -webkit-box-shadow: 10px -12px 23px 12px rgba(175,175,235,0.9), -7px 5px 25px 21px #ECA4C2; 
+    box-shadow: 10px -12px 23px 12px rgba(175,175,235,0.9), -7px 5px 25px 21px #ECA4C2;
+    
+    border-radius: 18px;
+}
+
+
+.validation{
+    color: #2B2B2B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+.result{
+    color: #2B2B2B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input{
+    border-radius: 0px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+::placeholder{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+.operators{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.operators>div{
+    background-color:#2B2B2B;
+    color: #ffff;
+    padding: 13px 22px;   
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.error{
+color: #FB184E;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+}
+.sucess{
+color: #0057FF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+}
